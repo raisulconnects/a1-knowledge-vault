@@ -102,3 +102,49 @@ h1 {
   border: 1px solid white;
   cursor: pointer;
 }
+
+/* Notes Section */
+.notes-section-container {
+  max-width: 71%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.notes-section-container h1 {
+  margin-top: 50px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.notes-section-container p {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.notes-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 44px;
+}
+
+.notes-container .note {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  height: 300px;
+  width: 322px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(32, 30, 30, 0.137);
+}
+
+.img-bg {
+  text-align: center;
+  background-color: #f95555;
+  margin-top: 69px;
+  padding: 14px;
+  border-radius: 50%;
+}
