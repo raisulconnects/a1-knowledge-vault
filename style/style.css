@@ -156,9 +156,13 @@ h1 {
   margin: 0 auto;
 }
 
+.brief-info {
+  text-align: start;
+}
+
 .solution-section {
   display: flex;
-  gap: 60px;
+  gap: 120px;
   justify-content: center;
   align-items: center;
   margin-bottom: 120px;
@@ -244,3 +248,47 @@ p {
 .herobtnone {
   box-shadow: 0px 10px 20px rgba(22, 22, 22, 0.2);
 }
+
+/* Footer */
+footer {
+  background-color: #001830;
+  padding-top: 120px;
+}
+
+.footer-section {
+  max-width: 71%;
+  margin: 0 auto;
+}
+
+.footer-section-t {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.sociallinks {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sociallinks p {
+  color: white;
+}
+
+.social-links-bar {
+  color: white;
+  cursor: pointer;
+}
+
+.footer-section-b p {
+  color: white;
+  padding: 30px 0px;
+  font-size: 16px;
+}
+
+.cool {
+  border-color: #627382;
+}
+
+/* #627382 */
