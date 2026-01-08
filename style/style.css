@@ -197,3 +197,50 @@ h1 {
   font-size: 16px;
   margin-bottom: 16px;
 }
+
+/* Ready Section */
+
+.ready-think-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
+}
+
+.ready {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f6f2;
+  width: 1360px;
+  border-radius: 12px;
+  padding-top: 80px;
+}
+
+.ready h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.ready p {
+  color: #627382;
+}
+
+.ready h1,
+p {
+  text-align: center;
+}
+
+.ready p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.last-subtitle {
+  padding-bottom: 80px;
+}
+
+.herobtnone {
+  box-shadow: 0px 10px 20px rgba(22, 22, 22, 0.2);
+}
