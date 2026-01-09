@@ -68,6 +68,11 @@ nav button,
   font-size: 16px;
   border-radius: 8px;
   margin-top: 115.5px;
+  margin-bottom: 16px;
+}
+
+.hcs {
+  margin-bottom: 32px;
 }
 
 h1 {
@@ -208,6 +213,13 @@ h1 {
   margin-bottom: 16px;
 }
 
+.subtitleee {
+  text-align: start;
+  color: #469165;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 /* Ready Section */
 
 .ready-think-container {
@@ -264,7 +276,7 @@ p {
 }
 
 .herobtnone {
-  box-shadow: 0px 10px 20px rgba(5, 5, 5, 0.945);
+  box-shadow: 0px 10px 20px rgba(22, 22, 22, 0);
 }
 
 /* Footer */
