@@ -21,6 +21,12 @@ nav ul {
 
 nav ul li {
   cursor: pointer;
+  transition: 0.3s;
+  padding: 2px 4px;
+}
+
+nav ul li:hover {
+  background-color: #30b8698c;
 }
 
 nav button,
@@ -34,6 +40,7 @@ nav button,
   font-weight: 500;
   border-radius: 4px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 /* Hero Section */
@@ -245,6 +252,16 @@ p {
   padding-bottom: 80px;
 }
 
+.readythinkbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+  transition: 0.3s;
+  box-shadow: 0px 10px 20px rgba(32, 30, 30, 0.15);
+}
+
 .herobtnone {
   box-shadow: 0px 10px 20px rgba(22, 22, 22, 0.2);
 }
@@ -291,4 +308,17 @@ footer {
   border-color: #627382;
 }
 
-/* #627382 */
+/* Hover Effects */
+.getearlyaccess:hover,
+.herobtnone:hover {
+  background-color: #30b868;
+}
+
+.herobtntwo:hover {
+  background-color: white;
+  color: black;
+}
+
+.readythinkbtn:hover {
+  background-color: #30b868;
+}
